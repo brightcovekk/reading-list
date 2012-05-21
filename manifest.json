@@ -1,0 +1,25 @@
+{
+    "name": "App Cloud あとで読むリストデモ",
+    "description": "App Cloud を使ったローカルキャッシュのデモ",
+    "version": "1.0",
+    "devices": [
+        "iPhone",
+        "Android"
+    ],
+    "views": [
+        {
+            "navigationTitle": "News",
+            "navigationIcon": "images/icons/news.png",
+            "uri": "html/news.html",
+            "settings": [ ],
+            "styles": [ ],
+            "data": [
+                {
+                    "name": "google-news",
+                    "contentFeed": "4f8fdcbb987d0370d1014ed4",
+                    "type": "feed"
+                }
+            ]
+        }
+    ]
+}
